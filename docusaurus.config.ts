@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import tailwindPlugin from './plugins/tailwind-plugin.cjs';
 
 const config: Config = {
-  title: 'stEELlm',
+  title: 'Alligator',
   tagline: 'Documentation',
   favicon: 'img/favicon.ico',
 
@@ -12,12 +12,12 @@ const config: Config = {
   url: 'https://unimib-datai.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/steellm-docs/',
+  baseUrl: '/alligator-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'DatAI Lab', // Usually your GitHub org/user name.
-  projectName: 'stEELlm', // Usually your repo name.
+  projectName: 'Alligator', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -60,9 +60,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/mammotab-social-card.png',
     navbar: {
-      title: 'stELLlm',
+      title: 'Alligator',
       logo: {
-        alt: 'stELLlm',
+        alt: 'Alligator',
         src: 'img/steellm.png',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/unimib-datAI/steellm',
+          href: 'https://github.com/unimib-datAI/alligator',
           label: 'GitHub',
           position: 'right',
         },
