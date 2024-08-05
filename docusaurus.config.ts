@@ -58,12 +58,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/mammotab-social-card.png',
+    image: 'img/alligatorsocial.png',
     navbar: {
       title: 'Alligator',
       logo: {
         alt: 'Alligator',
-        src: 'img/steellm.png',
+        src: 'img/alligator.svg',
       },
       items: [
         {
